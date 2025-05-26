@@ -2,6 +2,8 @@
 
 # SuricataMCP 🚀
 
+[![smithery badge](https://smithery.ai/badge/@Medinios/SuricataMCP)](https://smithery.ai/server/@Medinios/SuricataMCP)
+
 SuricataMCP is a Model Context Protocol Server that allows MCP clients to autonomously use suricata for network traffic analysis. It enables programmatic interaction with Suricata through tools like get_suricata_version, get_suricata_help, and get_alerts_from_pcap_file.
 
 [![Watch the demo](https://img.youtube.com/vi/QnIT_DnSMTI/hqdefault.jpg)](https://youtu.be/QnIT_DnSMTI)
@@ -39,6 +41,14 @@ After installation, locate the Suricata binary and configuration files so you ca
 ---
 
 ## ⚙️ Installation Guide
+
+### Installing via Smithery
+
+To install Suricata Network Traffic Analysis Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@Medinios/SuricataMCP):
+
+```bash
+npx -y @smithery/cli install @Medinios/SuricataMCP --client claude
+```
 
 Follow these steps to set up **SuricataMCP** on your system:
 
